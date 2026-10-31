@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="INFO 340 project proposal for a collaborative group planning web app">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFO 340 - Project Proposal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>INFO 340 - Project Proposal</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Problem / Data Domain</h2>
+
+      <p>
+        Making plans as a group can be a difficult thing to do, as people often have different preferences, schedules, budgets and ideas for what they want to do. Whether it's choosing a place to eat, finding a time that works for everyone, or agreeing on costs, group decision-making can become overwhelming. This challenge becomes more evident in group chats where multiple suggestions, responses, and side conversations happen all at once. As a result, important details can get lost, it becomes hard to track what options are available, and groups may struggle to reach a clear decision. While there are existing tools like iMessage Group Chats, polls within messaging apps, RSVP forms, calendar invites, and apps like GroupMe and Partiful, these solutions are often limited in scope. Many only support single-use decisions, lack of organization for multiple ideas, or fail to integrate collaborative decision-making in a structured way. This reveals an information problem: there is no single, cohesive platform that helps groups organize ideas, compare options, and collectively decide on plants in an intuitive and easy way.
+      </p>
+    </section>
+
+    <section>
+        <h2>App Description</h2>
+        <p>
+            Anyone in a friend group who likes to go out can use this app, especially college students with busy schedules who want to save time planning. It helps users quickly decide where to go and makes hanging out easier and less stressful. People who are new to a city or do not know many places can also benefit from using it. The app is also designed to support people who are visually impaired by making it simple and accessible to use. This helps make sure more people, including minority groups, can use the app comfortably. Overall, it creates a more inclusive experience so different types of users can plan and enjoy time with friends together.
+        </p>
+
+        <p>
+            Users will use this web app to collaboratively plan group activities in a more organized and interactive way. Instead of trying to sort through messy group chat messages, they will be able to view all proposed plans in one shared space, compare options, contribute their own ideas, and help the group reach a decision. The app is designed to make planning more efficient and transparent by keeping important details such as time, location, price, food options, transportation, and personal notes all in one place.
+        </p>
+
+        <section>
+            <h3> Features </h3>
+                <ul>
+                    <li>
+                        Friend group management: users can invite friends, and control who can participate in a planning board.
+                    </li>
+                    <li>
+                        Collaborative planning board: users can add activity ideas with details like event name, time, location, price, and notes so everyone can compare options in one shared space.
+                    </li>
+                    <li>
+                        Voting system: group members can upvote or downvote options, and activities will be ranked based on the total votes to highlight the most preferred choices.                    </li>
+                    <li>
+                        Calendar view: once a plan is selected, users can view the finalized event in a clear schedule format.
+                    </li>
+                </ul>
+        </section>
+
+        <section>
+            <h3> Data Sources </h3>
+            <p>
+                The user will be viewing information of the activities  that other people have imputed in a visualized format as a board. For visualizing the activities in a calendar format we'll use the <a href="https://developers.google.com/workspace/calendar/api/guides/overview">Google Calendar API</a>, so that it can show synchronization with people's availabilities or time conflicts with the suggested events. Using the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google Maps API </a> we will use the information of the location and address activities to visualize it in a map, as well as getting more information of the location such as ratings, reviews, and price. 
+
+            </p>
+        </section>
+
+        <p>
+            The application will help solve the problem since it aids the planning process prompting the users what information they should add when suggesting an activity for the group. There is less confusion with all the information being gathered in one application and all ideas would be recorded and can be seen by everyone, and a system for decision making through the voting feature. The collaborative nature of the application pushes people to add their ideas to the board, and with everyone having a say and contributing to the planning, it doesn't leave it to one person making all the decisions for everyone. Overall it saves time, since there isn't a need for repeating ideas or forgetting ideas, when all the planning details are in one place. With everyone contributing it gives people a better experience knowing that they contributed, and motivates them to make plans.  
+        </p>
+    </section>
+  </main>
+</body>
+</html>
